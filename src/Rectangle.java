@@ -1,14 +1,13 @@
 public class Rectangle {
-    // private fields
+
     private double width;
     private double height;
-    private int id;
-    private static int idGen = 1; // static field to generate unique IDs
+    private final int id = idGen++;
+    private static int idGen = 1;
 
     public Rectangle() {
         this.width = 1.0;
         this.height = 1.0;
-        this.id = idGen++;
     }
 
     public Rectangle(double width, double height) {
@@ -17,7 +16,6 @@ public class Rectangle {
         setHeight(height);
     }
 
-    // getters
     public double getWidth() {
         return width;
     }
