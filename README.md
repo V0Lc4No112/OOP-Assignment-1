@@ -1,6 +1,7 @@
 ﻿# OOP Assignment 1
 
-**Course:** Object Orientated Programming (Java)    
+**Course:** Object Orientated Programming (Java)  
+**Teacher:** Traxel Xeniya Alexandrovna  
 **Assignment:** Classes and Methods
 
 ## About this project
@@ -46,30 +47,6 @@ This is the main program. It has a menu where you can:
 6. Delete books
 7. Exit
 
-## Example
-
-When running the program:
-```
-Welcome to Library App!
-1. Print all books
-2. Add new book
-...
-```
-
-Type a number and press enter.
-
-## Challenges
-
-- Understanding how to use ArrayList
-- Implementing validation correctly
-- Making sure IDs work properly
-
-## Possible improvements
-
-- Data persistence (currently all data lost when program closes)
-- Add editing functionality for books
-- More search options
-
 ## Notes
 
 The code includes input validation (year must be between 1500 and current year, title cannot be empty, etc.)
@@ -79,5 +56,4 @@ Book IDs start from 1 and increment. Deleted book IDs are not reused.
 ---
 
 Made by: Mereikhan Sholanbayev  
-
 Date: December 2025
