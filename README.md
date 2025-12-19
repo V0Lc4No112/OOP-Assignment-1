@@ -1,7 +1,6 @@
 ﻿# OOP Assignment 1
 
-**Course:** Object Orientated Programming (Java)  
-**Teacher:** Traxel Xeniya Alexandrovna  
+**Course:** Object Orientated Programming (Java)
 **Assignment:** Classes and Methods
 
 ## About this project
